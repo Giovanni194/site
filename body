@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Caricamento PDF</title>
+</head>
+<body>
+    <h1>Caricamento PDF</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="pdfFile">
+        <input type="submit" value="Carica PDF">
+    </form>
+</body>
+</html>
